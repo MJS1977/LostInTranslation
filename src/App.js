@@ -1,5 +1,7 @@
 import Home from './View/Home.js';
 import Translation from './View/Translation.js';
+import Profile from './View/Profile.js';
+
 
 import React from 'react';
 import {
@@ -13,8 +15,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/translation" component={Translation} />
-          {/*<Route path="/translation" component={Translation} />
-            <Route path="/profile" component={Profile} />*/}
+          <Route path="/profile" component={Profile} />
         </Switch>
       </Router>
     </div>
